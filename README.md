@@ -44,7 +44,7 @@ cp models-5-1-inter/bert-base-uncased-innerSteps_2-innerSize_32-lrInner_0.0001-l
 python main.py --gpu_device=1 --seed=171 --N=5 --K=1 --mode=inter_attack --similar_k=10 --name=10-k_100_2_32_3_max_loss_2_5_BIOES --concat_types=None --test_only --eval_mode=two-stage --inner_steps=2 --inner_size=64 --max_ft_steps=3 --max_type_ft_steps=3 --lambda_max_loss=2.0 --inner_lambda_max_loss=5.0 --inner_similar_k=10 --viterbi=hard --tagging_scheme=BIOES
 ```
 
-The seeds are selected from (171 354 550 667 985).
+The seeds are selected from (171, 354, 550, 667, 985).
 
 
 ## 🍯 Datasets
